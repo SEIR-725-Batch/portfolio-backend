@@ -4,7 +4,7 @@ const cors = require('cors');
 const projects = require('./projects.json');
 const about = require('./about.json');
 
-const port = process.env.port || 4001  
+const port = process.env.port || 4000  
 const app = express();
 
 //! Middleware
