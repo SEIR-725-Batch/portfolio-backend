@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Pokedex",
+      "live": "https://pokedex-ga-project.herokuapp.com/pokedex",
+      "git": "https://github.com/brendonvan/pokedex",
+      "image": "https://imgur.com/XV7kj9W"
+    },
+    {
+      "name": "This-is-Spotify",
+      "live": "https://this-is-spotifyy.herokuapp.com/",
+      "git": "https://github.com/brendonvan/This-Is-Spotify",
+      "image": "https://imgur.com/pQX5LrI"
+    }
+  ]
