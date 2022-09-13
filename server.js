@@ -4,7 +4,7 @@ const cors = require('cors');
 const projects = require('./projects.json');
 const about = require('./about.json');
 
-const port = process.env.port || 4000  
+const PORT = process.env.PORT || 4000  
 const app = express();
 
 //! Middleware
@@ -25,6 +25,6 @@ app.get('/about', (req, res) => {
 })
 
 //! Listener
-app.listen(port, () => {
-    console.log(`PORT listening on ${port}...`)
+app.listen(PORT, () => {
+    console.log(`PORT listening on ${PORT}...`)
 });
